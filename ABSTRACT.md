@@ -26,6 +26,31 @@ To convert bounding boxes into segmentation masks, the authors employed a fully 
 
 To streamline the training and assessment process, they partitioned the 21 training sequences from the KITTI tracking dataset into distinct training and validation sets. This division ensures a balanced distribution of each class – cars and pedestrians – across both sets. The considerable amount of manual annotations needed underscores the limited efficacy of existing single-image instance segmentation methods for this task. This limitation serves as a primary impetus behind the authors' creation of the MOTS dataset, which enables the integration of temporal logic into instance segmentation models.
 
+<table>
+  <tr>
+    <th colspan="2">KITTI and MOTS</th>
+    <th>MOTSChallenge</th>
+  </tr>
+  <tr>
+    <td>train</td>
+    <td>val</td>
+    <td>train</td>
+  </tr>
+  <tr>
+    <td>Sequences</td>
+    <td>12</td>
+    <td>9</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Frames</td>
+    <td>5,027</td>
+    <td>2,981</td>
+    <td>2,862</td>
+  </tr>
+  <!-- Add the rest of your rows in the same way -->
+</table>
+
 |                | KITTI   | MOTS  | MOTSChallenge |
 |----------------|---------|-------|---------------|
 |                | train   | val   | train         |
