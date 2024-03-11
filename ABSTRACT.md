@@ -28,7 +28,7 @@ To streamline the training and assessment process, they partitioned the 21 train
 
 <table>
   <tr>
-    <the> </th>
+    <th> </th>
     <th colspan="2">KITTI and MOTS</th>
     <th>MOTSChallenge</th>
   </tr>
