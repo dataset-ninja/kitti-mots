@@ -50,7 +50,43 @@ To streamline the training and assessment process, they partitioned the 21 train
     <td>2,981</td>
     <td>2,862</td>
   </tr>
-  <!-- Add the rest of your rows in the same way -->
+  <tr>
+    <td>Tracks Pedestrian</td>
+    <td>99</td>
+    <td>68</td>
+    <td>228</td>
+  </tr>
+  <tr>
+    <td>Masks Pedestrian Total</td>
+    <td>8,073</td>
+    <td>3,347</td>
+    <td>26,894</td>
+  </tr>
+  <tr>
+    <td>Manually annotated</td>
+    <td>1,312</td>
+    <td>647</td>
+    <td>3,930</td>
+  </tr>
+  <tr>
+    <td>Tracks Car</td>
+    <td>431</td>
+    <td>151</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Masks Car Total</td>
+    <td>18,831</td>
+    <td>18,06851</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Manually annotated</td>
+    <td>1,509</td>
+    <td>593</td>
+    <td>-</td>
+  </tr>
+
 </table>
 
 |                | KITTI   | MOTS  | MOTSChallenge |
