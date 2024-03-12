@@ -28,12 +28,12 @@ To streamline the training and assessment process, they partitioned the 21 train
 
 <table>
   <tr>
-    <th>-</th>
+    <th></th>
     <th colspan="2">KITTI and MOTS</th>
     <th>MOTSChallenge</th>
   </tr>
   <tr>
-    <td>-</td>
+    <td></td>
     <td>train</td>
     <td>val</td>
     <td>train</td>
@@ -88,18 +88,6 @@ To streamline the training and assessment process, they partitioned the 21 train
   </tr>
 
 </table>
-
-|                | KITTI   | MOTS  | MOTSChallenge |
-|----------------|---------|-------|---------------|
-|                | train   | val   | train         |
-| Sequences      | 12      | 9     | 4             |
-| Frames         | 5,027   | 2,981 | 2,862         |
-| Tracks Pedestrian | 99   | 68    | 228           |
-| Masks Pedestrian Total | 8,073 | 3,347 | 26,894  |
-| Manually annotated    | 1,312 | 647   | 3,930     |
-| Tracks Car     | 431     | 151   | -             |
-| Masks Car Total | 18,831 | 8,068 | -             |
-| Manually annotated    | 1,509 | 593   | -          |
 
 <span style="font-size: smaller; font-style: italic;">Statistics of the Introduced KITTI MOTS and MOTSChallenge Datasets.</span>
 
