@@ -1,0 +1,7 @@
+**KITTI MOTS: Multi Object Tracking and Segmentation Dataset** is a dataset for instance segmentation, semantic segmentation, object detection, and identification tasks. It is used in the automotive industry. 
+
+The dataset consists of 19103 images with 139994 labeled objects belonging to 3 different classes including *ignore region*, *car*, and *pedestrian*.
+
+Images in the KITTI MOTS dataset have pixel-level instance segmentation annotations. Due to the nature of the instance segmentation task, it can be automatically transformed into a semantic segmentation (only one mask for every class) or object detection (bounding boxes for every object) tasks. There are 11176 (59% of the total) unlabeled images (i.e. without annotations). There are 3 splits in the dataset: *test* (11095 images), *train* (5027 images), and *val* (2981 images). Additionally, every image marked with its ***sequence*** tag. Every label contains information about its ***instance id*** and ***object id***. Explore it in Supervisely labelling tool. The dataset was released in 2019 by the <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">RWTH Aachen University, Germany</span>, <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">Max Plank Institute for Intelligent Systems, Germany</span>, and <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">University of Tubingen, Germany</span>.
+
+<img src="https://github.com/dataset-ninja/kitti-mots/raw/main/visualizations/poster.png">
