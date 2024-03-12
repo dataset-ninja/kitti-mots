@@ -28,6 +28,7 @@ CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
     CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
+    CVTask.Identification(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
@@ -38,7 +39,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.vision.rwth-aachen.de/page/mots"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 15136337
+PREVIEW_IMAGE_ID: int = 15405441
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/kitti-mots"
@@ -64,7 +65,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]] or Literal["predefined"]] = {
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = (
-    "https://www.vision.rwth-aachen.de/media/papers/mots-multi-object-tracking-and-segmentation/MOTS"
+    "https://www.vision.rwth-aachen.de/media/papers/mots-multi-object-tracking-and-segmentation/MOTS.pdf"
 )
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
@@ -91,11 +92,13 @@ AUTHORS_CONTACTS: Optional[List[str]] = [
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "RWTH Aachen University, Germany",
-    "MPI for Intelligent Systems and University of Tubingen, Germany",
+    "Max Plank Institute for Intelligent Systems, Germany",
+    "University of Tubingen, Germany",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.rwth-aachen.de/",
     "https://is.mpg.de/",
+    "https://uni-tuebingen.de/en/",
 ]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
@@ -104,7 +107,7 @@ SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
 }
 TAGS: Optional[
     List[Literal["multi-view", "synthetic", "simulation", "multi-camera", "multi-modal"]]
-] = None
+] = ["multi-object-tracking"]
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
