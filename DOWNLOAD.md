@@ -1,6 +1,6 @@
 Dataset **KITTI MOTS** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/x/M/mB/YpDEQ6WNTMWXXQjg2oLU0quIumOOSDMl78LwaB0K6bdwj1T6UEaD7UBLicQFtw8a3BMvBHWIEFd0Da2mSKaUPZOKkMnhrExmOBZ9mEtw725TPecWF2E7j4vb2D5M.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
